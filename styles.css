@@ -2,13 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+}
+main{
     margin-left: 8%;
     margin-right: 8%;
 }
 header{
-    margin-top: 5%;
+    margin-top: 10%;
     color: rgb(56, 53, 53);
     font-size: 10px;
+    margin-left: 8%;
+}
+nav{
+    margin-left: 750px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav > a {
+    color: rgb(41, 38, 38);
+    text-decoration: none;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
 }
 .star-influencer{
     display: grid;
@@ -20,6 +36,9 @@ header{
     color: rgb(56, 53, 53);
     font-weight: 700;
     margin-bottom: 0;
+}
+.para{
+    margin-bottom: 35px;
 }
 .anchor{
     text-decoration: none;
@@ -94,3 +113,41 @@ header{
        margin-left: 1000px;
        font-size: 20px;
    }
+   .technology{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       margin-top: 150px;
+   }
+   #techno{
+       color: rgba(9, 9, 51, 0.952);
+       font-size: 40px;
+   }
+   #join{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: rgba(43, 5, 114, 0.747);
+    color: #fff;
+   }
+   footer{
+       background-color: rgb(3, 3, 46);
+       height: 200px;
+       margin-top: 100px;
+       text-align: center;
+   }
+   .foot{
+       color: #fff;
+       padding-top: 25px;
+       padding-bottom: 30px;
+   }
+   #head-3{
+       font-size: 20px;
+       font-weight: 300;
+       margin-bottom: 2px;
+   }
+   #reserved{
+       margin-top: 0;
+       font-size: 12px;
+   }
+   .icon{
+       font-size: 20px;
+    }
